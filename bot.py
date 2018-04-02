@@ -18,7 +18,7 @@ def handle_start(message):
 @bot.message_handler(content_types=["contact"])
 def get_contact(message):
     print message.contact.phone_number
-    if '+' + message.contact.phone_number == '+79870626445':
+    if '+' + message.contact.phone_number == '+79990001122':
         bot.send_message(message.chat.id, 'You had already registered, faggot')
     else:
         bot.send_message(message.chat.id, 'Successfully sent! You can use system :)')
